@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- meta情報 -->
+    <title>youhei-usami portfolio shoes-page</title>
+    <meta name="description" content="youhei-usami portfolio " />
+    <meta name="keywords" content="" />
+    <!-- ogp -->
+    <meta property="og:title" content="youhei_usami portfolio shoes-page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="youhei-usami portfolio shoes-page" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:card" content="summary" />
+    <!-- ファビコン -->
+    <link rel="icon" href="../img/favicon (3).ico" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,200;1,300;1,400;1,500;1,600&family=Italianno&family=Hurricane&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/b055b2123e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../slick/slick.css" />
+    <link rel="stylesheet" href="../slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/works_style.css" />
+
+    <!-- ファーストビューの背景画像を先に読み込む -->
+    <!-- <link rel="preload" as="image" href="./img/kv-img1.jpg" /> -->
+    <!-- <link rel="preload" as="image" href="" /> -->
+
+    <!-- JavaScript -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+      defer
+    ></script> -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    ></script>
+
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="header__inner">
+        <h1 class="header__logo">
+          <a href="../index.html"
+            ><img
+              src="../img/youhei-usami-logo.svg"
+              alt="宇佐美洋平 名前のロゴ"
+          /></a>
+        </h1>
+
+        <nav class="header__nav md-none" id="header-nav">
+          <ul class="header__items">
+            <li class="header__item">
+              <a href="../index.html#about" class="header__link">About</a>
+            </li>
+            <li class="header__item">
+              <a href="../index.html#service" class="header__link">Service</a>
+            </li>
+            <li class="header__item">
+              <a href="../index.html#news" class="header__link">News</a>
+            </li>
+            <li class="header__item">
+              <a href="../index.html#works" class="header__link">Works</a>
+            </li>
+            <li class="header__item">
+              <a href="../index.html#contact" class="header__link--contact"
+                ><span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- <div class="header hamburger"> -->
+      <!-- <span>MENU</span> -->
+      <div class="hamburger-button md-show">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="header slide-menu">
+        <ul class="slide-menu__items">
+          <li class="slide-menu__item">
+            <a href="../index.html#about" class="slide-menu__link">About</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="../index.html#service" class="slide-menu__link">Service</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="../index.html#news" class="slide-menu__link">News</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="../index.html#works" class="slide-menu__link">Works</a>
+          </li>
+          <li class="slide-menu__item">
+            <a
+              href="../index.html#contact"
+              class="slide-menu__link slide-menu__link--contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="icon-button" id="elementToToggle">
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://github.com/usamiyouhei"
+            target="_blank"
+            rel="noreferrer"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </nav>
+      <!-- </div> -->
+    </header>
+
+    <main>
+      <section class="section-title" id="gallery">
+        <div class="section-title__inner inner">
+          <div class="fv__head">
+            <h2 class="page-title--dessert fade-in fade-in-up">
+              Dessert Gallery
+            </h2>
+          </div>
+          <div class="test-slick js-slick01 fade-in fade-in-up">
+            <div class="test-slick__item">
+              <img src="../img/Dg-img1.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img
+                src="../img/dg-img2 (1).jpg"
+                alt=""
+                width="500"
+                height="233"
+              />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/Dg-img3.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/Dg-img4.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/Dg-img5 .jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img
+                src="../img/dg-img6 (1).jpg"
+                alt=""
+                width="500"
+                height="233"
+              />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/Dg-img7.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/Dg-img8.jpg" alt="" width="500" height="233" />
+            </div>
+          </div>
+          <div class="test-slick js-slick02 fade-in fade-in-up" dir="rtl">
+            <div class="test-slick__item">
+              <img src="../img/Dg-img9.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/Dg-img10.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/Dg-img11.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/Dg-img12.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/dg-img13.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/dg-img14.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/dg-img15.jpg" alt="" width="500" height="233" />
+            </div>
+            <div class="test-slick__item">
+              <img src="../img/dg-img16.jpg" alt="" width="500" height="233" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="modal-section">
+        <div class="modal__gallery fade">
+          <div class="inner">
+            <div class="list">
+              <div data-modal="modalOne">
+                <img
+                  src="../img/dg-img17.jpg"
+                  alt="和梨のデザート"
+                  loading="lazy"
+                />
+                <p>和梨のデザート</p>
+              </div>
+              <div data-modal="modalTwo">
+                <img src="../img/dg-img11.jpg" alt="桜パフェ" loading="lazy" />
+                <p>桜パフェ</p>
+              </div>
+              <div data-modal="modalThree">
+                <img
+                  src="../img/dg-img19.jpg"
+                  alt="シャインマスカットのデザート"
+                  loading="lazy"
+                />
+                <p>シャインマスカットのデザート</p>
+              </div>
+              <div data-modal="modalFour">
+                <img
+                  src="../img/kv-img1.jpg"
+                  alt="パリブレスト"
+                  loading="lazy"
+                />
+                <p>パリブレスト</p>
+              </div>
+              <div data-modal="modalFive">
+                <img
+                  src="../img/works8.jpg"
+                  alt="フルーツタルト"
+                  loading="lazy"
+                />
+                <p>フルーツタルト</p>
+              </div>
+              <div data-modal="modalSix">
+                <img
+                  src="../img/mv-dessert.jpg"
+                  alt="レモンのデザート"
+                  loading="lazy"
+                />
+                <p>レモンのデザート</p>
+              </div>
+            </div>
+          </div>
+          <!-- modalOne -->
+          <div id="modalOne" class="modal close">
+            <div class="modal-bg">
+              <div class="modal-content">
+                <div>
+                  <div class="modal-btn close">
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <img
+                    src="../img/dg-img17.jpg"
+                    alt="和梨のデザート"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modalTwo -->
+          <div id="modalTwo" class="modal close">
+            <div class="modal-bg">
+              <div class="modal-content">
+                <div>
+                  <div class="modal-btn close">
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <img
+                    src="../img/dg-img11.jpg"
+                    alt="桜パフェ"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modalThree -->
+          <div id="modalThree" class="modal close">
+            <div class="modal-bg">
+              <div class="modal-content">
+                <div>
+                  <div class="modal-btn close">
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <img
+                    src="../img/dg-img19.jpg"
+                    alt="シャインマスカットのデザート"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modalFour -->
+          <div id="modalFour" class="modal close">
+            <div class="modal-bg">
+              <div class="modal-content">
+                <div>
+                  <div class="modal-btn close">
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <img
+                    src="../img/kv-img1.jpg"
+                    alt="パリブレスト"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modalFive -->
+          <div id="modalFive" class="modal close">
+            <div class="modal-bg">
+              <div class="modal-content">
+                <div>
+                  <div class="modal-btn close">
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <img
+                    src="../img/works8.jpg"
+                    alt="フルーツタルト"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modalSix -->
+          <div id="modalSix" class="modal close">
+            <div class="modal-bg">
+              <div class="modal-content">
+                <div>
+                  <div class="modal-btn close">
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <img
+                    src="../img/mv-dessert.jpg"
+                    alt="レモンのデザート"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="introduce">
+        <div class="introduce__inner inner  fade-in fade-in-up">
+          <img src="../img/shop-img1.jpg" alt="" class="introduce__shop-img" />
+          <div class="introduce__wrap">
+            <h3 class="my-shop__title">
+              店名&emsp;Dessert&nbsp;une&nbsp;assiette
+            </h3>
+            <p class="my-shop__title--sub">2019年7月17日名古屋にて開業</p>
+            <h4 class="my-shop__title--policy">
+              『１皿に魂込めて』<br>
+              『唯一無二のデザート』
+            </h4>
+            <p class="my-shop__text">
+              を信念にしております。<br />
+              四季折々の旬の食材を活かして<br class="md-show">コース仕立てで<br />
+              デザートが楽しめます。<br />
+              カウンター６席のみの<br class="md-show">ライブキッチンなので<br />
+              作っている様子や出来立ての<br class="md-show">
+              デザートが楽しめます。
+            </p>
+            <a
+              href="https://dessert-une-assiette.com/"
+              class="shop__link read-more__button"
+              target="_blank"
+              rel="noreferrer"
+            >Dessert une Assiette Link</a>
+            <div class="introduce__shop-img--container">
+              <img
+                src="../img/shop-img2.jpg"
+                alt=""
+                class="introduce__shop-img"
+              />
+              <img
+                src="../img/shop-img3.jpg"
+                alt=""
+                class="introduce__shop-img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="my-shop__map ">
+          <div class="my-shop__map--inner inner  fade-in fade-in-up">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13046.119647942525!2d136.93589691822797!3d35.16834280688094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003713dd6d4be2d%3A0x5db8554ad3683538!2z44OH44K744O844OrIOOCouODsyDjgqLjgrfjgqfjg4Pjg4g!5e0!3m2!1sja!2sjp!4v1705053818316!5m2!1sja!2sjp"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <a class="read-more__button" href="../index.html#contact" target="_blank">
+        <span>Contact</span>
+      </a>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer" id="footer">
+      <div class="footer__container">
+        <nav class="footer__nav inner">
+          <ul class="footer__items">
+            <li class="footer__item">
+              <a href="../index.html#about">About</a>
+            </li>
+            <li class="footer__item">
+              <a href="../index.html#service">Service</a>
+            </li>
+            <li class="footer__item"><a href="../index.html#news">News</a></li>
+            <li class="footer__item">
+              <a href="../index.html#works">Works</a>
+            </li>
+            <li class="footer__item">
+              <a href="../index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__icon">
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://github.com/usamiyouhei"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.youtube.com/"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+        <div class="footer__info inner">
+          <h4>Information</h4>
+          <p>
+            〒460-0067<br />
+            愛知県名古屋市千種区池下2-2-8<br />
+            正木ビル1-A<br />
+            052-753-9669
+          </p>
+        </div>
+      </div>
+      <div class="footer__copy-right">
+        <p>&copy;y.usami</p>
+      </div>
+    </footer>
+
+    <!-- pagetop-buttton -->
+    <!-- <div class="page-top" style="display: block">
+      <a href="#" class="page-top-link">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div> -->
+    <div class="scroll-fixed">
+      <div class="loop__wrap">
+        <div class="loop__wrap--first">
+          Web Designer &nbsp;Programmer &nbsp;Dessert Creator &nbsp;
+        </div>
+        <div class="loop__wrap--second">
+          Web Designer &nbsp;Programmer &nbsp;Dessert Creator &nbsp;
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

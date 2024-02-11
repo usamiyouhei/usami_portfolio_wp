@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- meta情報 -->
+    <title>youhei-usami portfolio top</title>
+    <meta name="description" content="パティシエ兼プログラマー、宇佐美洋平のポートフォリオ" />
+    <meta name="keywords" content="宇佐美洋平 ポートフォリオ" />
+    <!-- ogp -->
+    <meta property="og:title" content="youhei_usami portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://youhei-usami.com/" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="youhei-usami portfolio" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:card" content="summary" />
+    <!-- ファビコン -->
+    <link rel="icon" href="./img/favicon (3).ico" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,200;1,300;1,400;1,500;1,600&family=Italianno&family=Hurricane&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/b055b2123e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+<link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-1-26/css/5-1-26.css"> -->
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ファーストビューの背景画像を先に読み込む -->
+    <link rel="preload" as="image" href="./img/kv-img1.jpg" />
+    <!-- <link rel="preload" as="image" href="" /> -->
+
+    <!-- JavaScript -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- loading -->
+    <!-- <div class="loader-bg js-loader-bg">
+      <div class="loader js-loader">
+        <img
+          src="./img/youhei-usami-logo.svg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="wrap">
+     
+    </div> -->
+
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="header__inner">
+        <h1 class="header__logo">
+          <a href="index.html"
+            ><img src="./img/youhei-usami-logo.svg" alt="宇佐美洋平 名前のロゴ"
+          /></a>
+        </h1>
+
+        <nav class="header__nav md-none" id="header-nav">
+          <ul class="header__items">
+            <li class="header__item">
+              <a href="../index.html#about" class="header__link">About</a>
+            </li>
+            <li class="header__item">
+              <a href="../index.html#service" class="header__link">Service</a>
+            </li>
+            <li class="header__item">
+              <a href="../index.html#news" class="header__link">News</a>
+            </li>
+            <li class="header__item">
+              <a href="../index.html#works" class="header__link">Works</a>
+            </li>
+            <li class="header__item">
+              <a href="../index.html#contact" class="header__link--contact"
+                ><span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- <div class="header hamburger"> -->
+      <!-- <span>MENU</span> -->
+      <div class="hamburger-button md-show">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="header slide-menu">
+        <ul class="slide-menu__items">
+          <li class="slide-menu__item">
+            <a href="../index.html#about" class="slide-menu__link">About</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="../index.html#service" class="slide-menu__link">Service</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="../index.html#news" class="slide-menu__link">News</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="../index.html#works" class="slide-menu__link">Works</a>
+          </li>
+          <li class="slide-menu__item">
+            <a
+              href="../index.html#contact"
+              class="slide-menu__link slide-menu__link--contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="icon-button" id="elementToToggle">
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://github.com/usamiyouhei"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.youtube.com/"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </nav>
+      <!-- </div> -->
+    </header>
+
+    <main>
+      <!-- mv -->
+      <section class="kv wrapper">
+        <div class="kv__content">
+          <div class="main-img"></div>
+          <div class="main-img"></div>
+          <div class="main-img"></div>
+          <div class="main-img"></div>
+          <div class="main-img"></div>
+          <img
+            class="kv__title-img fade-in fade-in-up"
+            src="./img/Creating the Only One.svg"
+            alt=""
+          />
+        </div>
+        <span class="kv__scroll">scroll</span>
+      </section>
+
+      <!-- about -->
+      <section class="about scroll-point" id="about">
+        <div class="about__inner inner" id="fadeElement">
+          <div class="about__title section-title">
+            <span class="section-title__main">About</span>
+            <h2 class="section-title__sub">自己紹介</h2>
+          </div>
+          <div class="about__wrap fade-in fade-in-up">
+            <div class="about__text">
+              <p>
+                はじめまして、宇佐美洋平と申します。<br />
+                名古屋でデザートコースのお店を経営している<br />
+                オーナーシェフパティシエです。
+              </p>
+              <p>
+                作ることが好きでパティシエをしていますが、<br />
+                他にプログラミングでのWeb制作も好きで<br />
+                日々の学習に勤しんでおります。
+              </p>
+              <p>
+                年間2000人に対応した接客術や<br />
+                クオリティーの高い制作物、<br />
+                細部まで突き詰める能力を<br />
+                Web制作にも活かしていきます。
+              </p>
+              <p class="about__policy">即行動・傾聴力・追求心</p>
+              <p>の三箇条が信念です。</p>
+            </div>
+            <img src="./img/my-photo.jpg" alt="本人の写真" loading="lazy" />
+          </div>
+          <a class="read-more__button" href="./about.html">
+            <span>Read More</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- <article> -->
+      <div class="scroll-fixed">
+        <div class="loop__wrap">
+          <div class="loop__wrap--first">
+            Web Designer &nbsp;Programmer &nbsp;Dessert Creator &nbsp;
+          </div>
+          <div class="loop__wrap--second">
+            Web Designer &nbsp;Programmer &nbsp;Dessert Creator &nbsp;
+          </div>
+        </div>
+      </div>
+
+     <!-- service -->
+     <section class="service scroll-point" id="service">
+      <div class="service__inner inner">
+        <div class="service__title section-title">
+          <span class="section-title__main">Service</span>
+          <h2 class="section-title__sub">事業内容</h2>
+        </div>
+        <ul class="service__items">
+          <div class="website-service">
+            <h3 class="service-title__main-second section-title">
+              website service
+            </h3>
+            <ul class="service__items--web">
+              <li class="service__item fade-in fade-in-up">
+                <div class="hover-border"></div>
+                <a
+                  href="./service_html/service_web.html"
+                  class="service__item--link"
+                >
+                  <h4 class="service__item-title">Webサイト制作</h4>
+                  <div class="service__item-img" href="">
+                    <img
+                      src="./img/website1.png"
+                      alt="Webサイト制作アイコン"
+                      loading="lazy"
+                    />
+                  </div>
+                  <p class="service__item-text">
+                    新規サイトの制作はもちろん、レスポンシブコーディングやアニメーションなど動きのあるサイト制作も可能です。
+                  </p>
+                </a>
+              </li>
+              <li class="service__item fade-in fade-in-up">
+                <a
+                  href="./service_html/service_design.html"
+                  class="service__item--link"
+                >
+                  <h4 class="service__item-title">Webデザイン</h4>
+                  <div class="service__item-img">
+                    <img
+                      src="./img/design.png"
+                      alt="Webデザインアイコン"
+                      loading="lazy"
+                    />
+                  </div>
+                  <p class="service__item-text">
+                    クライアント様のイメージを詳しくヒアリングしてブランドイメージに沿ったデザインを作っていきます。<br class="pc-show" />
+                    ロゴ制作も承ります。
+                  </p>
+                </a>
+              </li>
+              <li class="service__item fade-in fade-in-up">
+                <a
+                  href="./service_html/service_renewal.html"
+                  class="service__item--link"
+                >
+                  <h4 class="service__item-title">Webサイトリニューアル</h4>
+                  <div class="service__item-img">
+                    <img
+                      src="./img/siterenewal.png"
+                      alt="Webサイトリニューアルアイコン"
+                      loading="lazy"
+                    />
+                  </div>
+                  <p class="service__item-text">
+                    現状のWebサイトの改良や修正なども可能です。アニメーションや動画の追加、デザインもお気軽にご相談ください。
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="creator-service">
+            <h3 class="service-title__main-second creator section-title">
+              creator service
+            </h3>
+            <ul class="service__items--creator">
+              <li class="service__item fade-in fade-in-up">
+                <a
+                  href="./service_html/service_consultant.html"
+                  class="service__item--link"
+                >
+                  <h4 class="service__item-title">飲食店コンサルタント</h4>
+                  <div class="service__item-img">
+                    <img
+                      src="./img/consulting.png"
+                      alt="飲食店コンサルタントアイコン"
+                      loading="lazy"
+                    />
+                  </div>
+                  <p class="service__item-text">
+                    飲食店、パティシエの経験を活かしコンサルタントを行っております。<br>
+                    ケーキ屋、カフェ、デザート屋などお気軽にご相談ください。
+                  </p>
+                </a>
+              </li>
+              <li class="service__item fade-in fade-in-up">
+                <a
+                  href="./service_html/service_recipe.html"
+                  class="service__item--link"
+                >
+                  <h4 class="service__item-title">レシピ開発</h4>
+                  <div class="service__item-img">
+                    <img
+                      src="./img/cake.png"
+                      alt="レシピ開発アイコン"
+                      loading="lazy"
+                    />
+                  </div>
+                  <p class="service__item-text">
+                    ２０年分のレシピや新作の考え方を活かしてレシピ１品から承ります。<br
+                      class="pc-show"
+                    />
+                    栄養学も学習中で体に良いものも考案できます。
+                  </p>
+                </a>
+              </li>
+              <li class="service__item fade-in fade-in-up">
+                <a
+                  href="./service_html/service_photo.html"
+                  class="service__item--link"
+                >
+                  <h4 class="service__item-title">写真・動画撮影</h4>
+                  <div class="service__item-img">
+                    <img
+                      src="./img/camera.png"
+                      alt="写真・動画撮影アイコン"
+                      loading="lazy"
+                    />
+                  </div>
+                  <p class="service__item-text">
+                    写真、動画撮影も承ります。<br
+                      class="pc-show"
+                    />
+                    ポートフォリオの写真は<br
+                      class="pc-show lg-none"
+                    />自分が撮影しました。
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+    </section>
+
+      <!-- </article> -->
+
+      <!-- news -->
+      <!-- news -->
+      <section id="news" class="news scroll-point">
+        <div class="news__inner inner">
+          <div class="news__title section-title">
+            <span>News</span>
+            <h2>お知らせ</h2>
+          </div>
+          <ul class="news__items">
+            <div class="news__items-wrap fade-in fade-in-up">
+              <img
+                src="./img/news-img2.jpg"
+                alt="ポートフォリオサイトの画像"
+                class="news__img"
+                loading="lazy"
+              />
+              <li class="news__item news-item fade-in fade-in-up">
+                <time class="news-item__date" datetime="2023-12-29"
+                  >2024.1.19</time
+                >
+                <a href="./news.html" class="news-item__title"
+                  >新ポートフォリオ完成しました&#33;<br />
+                  こちらのサイトも自分で制作しております。<br class="sp-show" />
+                  Galleryページは必見です&#33;</a
+                >
+              </li>
+            </div>
+            <div class="news__items-wrap fade-in fade-in-up">
+              <img
+                src="./img/news-img1.jpg"
+                alt="正月鏡餅の画像"
+                class="news__img"
+                loading="lazy"
+              />
+              <li class="news__item news-item fade-in fade-in-up">
+                <time class="news-item__date" datetime="2024-1-2"
+                  >2024.1.2</time
+                >
+                <a href="./news.html" class="news-item__title"
+                  >本年もよろしく<br class="sp-show" />お願いいたします。<br />
+                  今年はクリエイターとして<br
+                    class="sp-show"
+                  />様々なジャンルで<br />
+                  お仕事に発展していきます。<br />
+                </a>
+              </li>
+            </div>
+
+            <div class="news__items-wrap fade-in fade-in-up">
+              <img
+                src="./img/news-img3.jpg"
+                alt="クリスマスデザートコースの画像"
+                class="news__img"
+                loading="lazy"
+              />
+              <li class="news__item news-item fade-in fade-in-up">
+                <time class="news-item__date" datetime="2023-12-15"
+                  >2023.12.15</time
+                >
+                <a href="./news.html" class="news-item__title"
+                  >クリスマスデザートコーススタート</a
+                >
+              </li>
+            </div>
+            <!-- <li class="news__item news-item">
+            <time class="news-item__date" datetime="2023-10-26"
+              >2023.10.26</time
+            >
+            <a href="#" class="news-item__title">Reactの学習始めました</a>
+          </li>
+          <li class="news__item news-item">
+            <time class="news-item__date" datetime="2023-10-11"
+              >2023.10.11</time
+            >
+            <a href="#" class="news-item__title">Figma始めました</a>
+          </li> -->
+          </ul>
+        </div>
+        <a class="read-more__button" href="./news.html">
+          <span>Read More</span>
+        </a>
+      </section>
+
+      <!-- works -->
+      <section class="works scroll-point" id="works">
+        <div class="works__title section-title">
+          <span class="section-title__main">Works</span>
+          <h2 class="section-title__sub">制作実績</h2>
+        </div>
+        <div class="works__inner inner">
+          <ul class="works__list js-fadeIn">
+            <li class="fade-in fade-in-up works-item">
+              <a href="./works_html/works_pondesign.html"
+                ><div>
+                  <img
+                    src="./img/works1.jpg"
+                    alt="Webサイト制作"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>Web制作</h3></a
+              >
+            </li>
+            <li class="fade-in fade-in-up works-item">
+              <a href="./works_html/works_shoes.html"
+                ><div>
+                  <img
+                    src="./img/works2.jpg"
+                    alt="靴屋さんWebサイト制作"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>Web制作</h3></a
+              >
+            </li>
+            <li class="fade-in fade-in-up works-item">
+              <a href="./works_html/works_green.html"
+                ><div>
+                  <img
+                    src="./img/works3.jpg"
+                    alt="オーガニック野菜のWebサイト制作"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>Web制作</h3></a
+              >
+            </li>
+            <li class="fade-in fade-in-up works-item">
+              <a href="./works_html/works_clothes.html"
+                ><div>
+                  <img
+                    src="./img/works4.jpg"
+                    alt="アパレルのWebサイト制作"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>Web制作</h3></a
+              >
+            </li>
+            <li class="fade-in fade-in-up works-item">
+              <a href="./works_html/works_camp.html"
+                ><div>
+                  <img
+                    src="./img/works5.jpg"
+                    alt="個人ブログのWebサイト制作"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>Web制作</h3></a
+              >
+            </li>
+            <li class="fade-in fade-in-up works-item">
+              <a href="./works_html/works_web-design.html"
+                ><div>
+                  <img
+                    src="./img/works6.jpg"
+                    alt="Webサイトデザイン"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>Webサイトデザイン</h3></a
+              >
+            </li>
+            <li class="fade-in fade-in-up works-item">
+              <a href="./works_html/creator.html"
+                ><div>
+                  <img
+                    src="./img/works7.jpg"
+                    alt="デザート作成画像"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>
+                  デザートクリエイター<br />
+                  写真・動画
+                </h3></a
+              >
+            </li>
+            <li class="fade-in fade-in-up works-item">
+              <a href="./works_html/dessert.html"
+                ><div>
+                  <img
+                    src="./img/works8.jpg"
+                    alt="オーダーメイドケーキ画像"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>
+                  デザート・ケーキ<br />
+                  お菓子製作
+                </h3></a
+              >
+            </li>
+            <li class="fade-in fade-in-up works-item">
+              <a href="./works_html/hobby.html"
+                ><div>
+                  <img
+                    src="./img/works9.jpg"
+                    alt="紫陽花の写真"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>趣味・写真撮影</h3></a
+              >
+            </li>
+          </ul>
+        </div>
+        <a class="read-more__button" href="./works_html/dessert.html">
+          <span>Gallery page</span>
+        </a>
+      </section>
+
+      <!-- contact -->
+      <section class="contact scroll-point" id="contact">
+        <div class="contact__inner inner">
+          <div class="contact__wrap">
+            <div class="contact__title section-title">
+              <span class="section-title__main">Contact</span>
+              <h2 class="section-title__sub">お問い合わせ</h2>
+            </div>
+            <p class="contact__text">
+              お気軽にご相談ください。<br />
+              基本的に即レス対応、遅くても<br />
+              当日中に返信させて頂きます。
+            </p>
+            <p class="contact__text">
+              稼働時間<br />
+              朝8時〜17時
+            </p>
+          </div>
+          <form action="mail.php" method="post" class="contact__form">
+            <div class="contact__item">
+              <div class="contact__label">
+                <label for="name" class="contact__label-text"
+                  >お名前<sup>*</sup></label
+                >
+                <!-- <span class="contact__required">必須</span> -->
+              </div>
+              <input
+                type="text"
+                id="name"
+                class="contact__input"
+                placeholder="山田 太郎"
+                required
+              />
+            </div>
+            <div class="contact__item">
+              <div class="contact__label">
+                <label for="mail" class="contact__label-text">
+                  メールアドレス<sup>*</sup></label
+                >
+                <!-- <span class="contact__required">必須</span> -->
+              </div>
+              <input
+                type="email"
+                id="mail"
+                name="メールアドレス"
+                class="contact__input"
+                placeholder="○○@info.com"
+                required
+              />
+            </div>
+            <div class="contact__item">
+              <div class="contact__label">
+                <label for="type" class="contact__label-text"
+                  >ご相談の種類</label
+                >
+                <!-- <span class="contact__required">必須</span> -->
+              </div>
+              <div class="contact__select-wrap">
+                <select class="contact__select" id="type" required>
+                  <option value="">選択してください</option>
+                  <option value="Web制作">Webサイト制作</option>
+                  <option value="Webデザイン">Webデザイン</option>
+                  <option value="Web相談">Web相談</option>
+                  <option value="飲食業コンサル">飲食業コンサル</option>
+                  <option value="お菓子について">お菓子について</option>
+                  <option value="写真撮影">写真撮影</option>
+                  <option value="その他">その他</option>
+                </select>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__label">
+                <label for="contents" class="contact__label-text"
+                  >ご相談内容</label
+                >
+                <!-- <span class="contact__required">必須</span> -->
+              </div>
+              <textarea
+                class="contact__textarea"
+                id="contents"
+                placeholder="ご自由にお書きください"
+                required
+              ></textarea>
+            </div>
+
+            <button class="read-more__button" src="./thanks.html" type="submit">
+              <span>送信する</span>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer" id="footer">
+      <div class="footer__container">
+        <nav class="footer__nav inner">
+          <ul class="footer__items">
+            <li class="footer__item"><a href="#about">About</a></li>
+            <li class="footer__item"><a href="#service">Service</a></li>
+            <li class="footer__item"><a href="#news">News</a></li>
+            <li class="footer__item"><a href="#works">Works</a></li>
+            <li class="footer__item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer__icon">
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://github.com/usamiyouhei"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.youtube.com/"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+
+        <div class="footer__info inner">
+          <h4>Information</h4>
+          <p>
+            〒460-0067<br />
+            愛知県名古屋市千種区池下2-2-8<br />
+            正木ビル1-A<br />
+            052-753-9669
+          </p>
+        </div>
+      </div>
+      <div class="footer__copy-right">
+        <p>&copy;y.usami</p>
+      </div>
+    </footer>
+
+    <!-- pagetop-buttton -->
+    <!-- <div class="page-top" style="display: block">
+      <a href="#" class="page-top-link">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-1-26/js/5-1-26.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

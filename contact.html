@@ -1,0 +1,48 @@
+<div class="form">
+  <dl class="form__list">
+    <div class="form__field">
+      <dt class="form__label">
+        <label for="name">お名前<span class="form__required">*</span></label>
+      </dt>
+      <dd class="form__data">[text* your-name id:your-name class:form__input placeholder "【例】田中太郎"]
+      </div>
+    <div class="form__field">
+      <dt class="form__label"><label for="phone">電話番号</label></dt>
+      <dd class="form__data">[tel phone id:phone class:form__input placeholder "【例】000-0000-0000"]
+      </div>
+    <div class="form__field">
+      <dt class="form__label"><label for="email">メールアドレス<span class="form__required">*</span></label></dt>
+      <dd class="form__data">[email* your-email id:your-email class:form__input placeholder "【例】hoge@hogehoge.com"]
+      </div>
+    <div class="form__field">
+      <dt class="form__label">お問い合わせの種類<span class="form__required">*</span>（ドロップダウンメニュー式）</dt>
+      <dd class="form__data-select">
+        [select* category id:category class:form__select "種類1" "種類2" "種類3"]
+      </dd>
+    </div>
+    <div class="form__field">
+      <dt class="form__label">お問い合わせの種類<span class="form__required">*</span>（ラジオボタン式）</dt>
+      <dd class="form__data-radio">
+        [radio radio-category id:radio-category class:form__radio use_label_element default:1 "種類1" "種類2" "種類3"]
+      </dd>
+    </div>
+    <div class="form__field">
+      <dt class="form__label"><label for="message">お問い合わせの内容<span class="form__required">*</span></label></dt>
+      <dd class="form__data"></dd>[textarea* message id:message class:form__textarea placeholder]</div>
+    <div class="form__field">
+      <dt class="form__label">個人情報の取り扱いについて<span class="form__required">*</span></dt>
+      <dd class="form__data">
+        [acceptance privacy id:privacy class:form__checkbox optional] 同意する [/acceptance]
+	    </dd>
+    </div>
+  </dl>
+  <div class="form__acceptance">
+    <p class="form__acceptance-text">
+      【個人情報の取り扱い】<br>この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。
+    </p>
+  </div>
+  <div class="form__submit-button">
+    [submit class:form__submit-input "確認画面へ"]
+    [multistep multistep-216 first_step "/contact/confirm/"]
+    </div>
+</div>
