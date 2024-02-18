@@ -25,6 +25,8 @@ function my_script_init()
     wp_enqueue_style( "Poppins", '//fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap' );
     wp_enqueue_style(  "Italianno", '//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,200;1,300;1,400;1,500;1,600&family=Italianno&display=swap' );
     wp_enqueue_style('fontawesome','//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css',array(),'6.1.1');
+    wp_enqueue_style( 'fontawesome', '//use.fontawesome.com/releases/v5.15.4/css/all.css' );
+    wp_enqueue_style( 'fontawesome', '//kit.fontawesome.com/b055b2123e.js' );
     wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js', array('jquery'), '1.0.1', true);
     wp_enqueue_script('slick.min',get_stylesheet_directory_uri().'/slick/slick.min.js',array( 'jquery' ),'1.8.1', true);
     wp_enqueue_style('style-css', get_template_directory_uri() . '/css/style.css', array(), '1.0.1');

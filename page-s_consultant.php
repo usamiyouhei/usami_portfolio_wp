@@ -33,11 +33,11 @@
           <img src="<?php echo esc_url(get_theme_file_uri("./img/Dg-img4.jpg")); ?>" alt="" width="500" height="233" />
         </div>
         <div class="test-slick__item">
-          <img src="<?php echo esc_url(get_theme_file_uri("./img/Dg-img5 .jpg")); ?>" alt="" width="500" height="233" />
+          <img src="<?php echo esc_url(get_theme_file_uri("./img/Dg-img5.jpg")); ?>" alt="" width="500" height="233" />
         </div>
         <div class="test-slick__item">
           <img
-            src="<?php echo esc_url(get_theme_file_uri("./img/dg-img6 (1).jpg")); ?>"
+            src="<?php echo esc_url(get_theme_file_uri("./img/dg-img6.jpg")); ?>"
             alt=""
             width="500"
             height="233"

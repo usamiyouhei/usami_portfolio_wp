@@ -1958,7 +1958,7 @@ sup {
   .lg-none {
     display: none;
   }
-
+}
   @media screen and (max-width: 768px) {
     .header__logo {
       width: 132px;
@@ -2157,6 +2157,7 @@ sup {
     .md-show {
       display: block;
     }
+  }
     @media screen and (max-width: 375px) {
       .hamburger-button {
         /* position: absolute; */
@@ -2205,8 +2206,8 @@ sup {
         display: none;
       }
     }
-  }
-}
+  
+
 
 /* service_css */
 
